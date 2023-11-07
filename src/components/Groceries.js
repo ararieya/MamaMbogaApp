@@ -6,7 +6,7 @@ function GroceriesList({ groceries }) {
       {groceries.map((grocery) => (
         <Card key={grocery.id} style={{ width: '18rem' }} className='card-container'>
           <Card.Img variant="top" src={grocery.image} alt={grocery.name} className='grocery-image' />
-          <Card.Body>
+          <Card.Body className='container'>
             <Card.Title>{grocery.name}</Card.Title>
             <Card.Text>
               {grocery.category} <br />

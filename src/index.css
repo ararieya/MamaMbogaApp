@@ -1,23 +1,26 @@
 h2{
   text-align:center;
-};
+}
 
 .card-container {
   width: 200px; 
   height: 200px; 
   margin: 10px; 
-  justify-content: space-between;
-};
+}
 
 .container-grocery {
   display: flex;
-  flex-wrap: wrap; 
-  justify-content: center; 
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .grocery-image{
-  max-width: 100px;
-  max-height: 100px;
-  width: auto;
-  height: auto;
+  max-width: 150px;
+  max-height: 150px;
+  width: 100%;
+  height: 100%;
+}
+
+.container{
+  text-align: center;
 }
