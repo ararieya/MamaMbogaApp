@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {useEffect, useState} from 'react';
+import GroceriesList from './components/Groceries';
 
 function App() {
+  const [groceries, setGroceries] = useState([]);
+
+   //Fetch data from db.json
+   useEffect(() => {
+    fetch('http://localhost:3001/groceries')
+      .then((response) => response.json())
+      .then((data) => {
+        setGroceries(data);
+      })
+      .catch((error) => console.error(error));
+  }, []);
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <h2>Groceries List</h2>
+      <GroceriesList  groceries= {groceries}/>
     </div>
   );
 }
