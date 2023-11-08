@@ -29,7 +29,7 @@ function App() {
         {filteredData.map((item) => (
           <div key={item.id} className="card" style={{ width: '30%', margin: '10px', textAlign: 'center' }}>
             <img src={item.image} alt={item.name} />
-            <h3>{item.name}</h3>
+            <h2>{item.name}</h2>
             <p>Category: {item.category}</p>
             <p>Price: ${item.price}</p>
           </div>
