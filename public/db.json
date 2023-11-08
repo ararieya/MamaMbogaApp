@@ -1,0 +1,145 @@
+{
+    "groceries": [
+      {
+        "id": 1,
+        "name": "Apple",
+        "image": "https://t3.ftcdn.net/jpg/05/39/60/90/240_F_539609028_vqdEYa7GROujPxhItIlLV2e7cEEUVFpT.jpg",
+        "category": "fruit",
+        "price": 20
+      },
+      {
+        "id": 2,
+        "name": "Tomato",
+        "image": "https://t4.ftcdn.net/jpg/01/15/84/67/240_F_115846709_kxJtk4TVSXfUdnx3aGoVJykNpJyv2hKd.jpg",
+        "category": "vegetable",
+        "price": 10
+      },
+      {
+        "id": 3,
+        "name": "Banana",
+        "image": "https://t3.ftcdn.net/jpg/01/74/93/80/240_F_174938002_zvgqpU18283OpwpHCA1hrfItZ76sMuMB.jpg",
+        "category": "fruit",
+        "price": 10
+      },
+      {
+        "id": 4,
+        "name": "Orange",
+        "image": "https://t4.ftcdn.net/jpg/04/20/70/97/240_F_420709714_6WRLa14NhZ9gKE1UAjJJsxDld5WOMliJ.jpg",
+        "category": "fruit",
+        "price": 15
+      },
+      {
+        "id": 5,
+        "name": "Mango",
+        "image": "https://t4.ftcdn.net/jpg/02/14/30/43/240_F_214304332_IcxCpPJtslqgGA37MyPqXmTXI5I1aCxj.jpg",
+        "category": "fruit",
+        "price": 25
+      },
+      {
+        "id": 6,
+        "name": "Pineapple",
+        "image": "https://t4.ftcdn.net/jpg/00/13/68/89/240_F_13688997_exKixIth8GV1NYa0wL1pVzdZs2dn3C8Y.jpg",
+        "category": "fruit",
+        "price": 40
+      },
+      {
+        "id": 7,
+        "name": "Watermelon",
+        "image": "https://t4.ftcdn.net/jpg/02/32/22/01/240_F_232220112_Cu1CtXrSgJuUjFevivVdMdm08MFnWWNY.jpg",
+        "category": "fruit",
+        "price": 80
+      },
+      {
+        "id": 8,
+        "name": "Avocado",
+        "image": "https://t4.ftcdn.net/jpg/04/91/80/87/240_F_491808787_9KT5Mq6rXQjJh6CvoFiDssfhax18Ij4C.jpg",
+        "category": "fruit",
+        "price": 15
+      },
+      {
+        "id": 9,
+        "name": "Lemon",
+        "image": "https://t4.ftcdn.net/jpg/03/83/54/55/240_F_383545534_Re0MtJ9793i89h90ahgs3vstu7zB64vN.jpg",
+        "category": "fruit",
+        "price": 10
+      },
+      {
+        "id": 10,
+        "name": "Pawpaw",
+        "image": "https://t4.ftcdn.net/jpg/05/13/27/67/240_F_513276700_zM3yBW67Ne5ISzH3IK7fbinOmQZQNpYI.jpg",
+        "category": "fruit",
+        "price": 40
+      },
+      {
+        "id": 11,
+        "name": "Cabbage",
+        "image": "https://t3.ftcdn.net/jpg/03/74/46/68/240_F_374466842_siU3zJ6Iyw9nlNk4ABnF5AhzRE2q8U0q.jpg",
+        "category": "vegetable",
+        "price": 30
+      },
+      {
+        "id": 12,
+        "name": "Potato",
+        "image": "https://t3.ftcdn.net/jpg/00/41/30/10/240_F_41301053_AbLi3hlosbLajBo7lQdNyfGz9eusxY1x.jpg",
+        "category": "vegetable",
+        "price": 10
+      },
+      {
+        "id": 13,
+        "name": "Onion",
+        "image": "https://t4.ftcdn.net/jpg/05/54/09/45/240_F_554094547_B3a2crA4z3BoNRNUTyDCWCV9tIcQgBS8.jpg",
+        "category": "vegetable",
+        "price": 10
+      },
+      {
+        "id": 14,
+        "name": "Cucumber",
+        "image": "https://t4.ftcdn.net/jpg/02/66/68/37/240_F_266683754_wzx9XxeNXKudct2Q3qwQf1PvVaQaKOf6.jpg",
+        "category": "vegetable",
+        "price": 20
+      },
+      {
+        "id": 15,
+        "name": "Spinach",
+        "image": "https://t4.ftcdn.net/jpg/02/49/93/33/240_F_249933303_rB82fjbNuZdT3444cZfutFG1Wau0T1VA.jpg",
+        "category": "vegetable",
+        "price": 30
+      },
+      {
+        "id": 16,
+        "name": "Garlic",
+        "image": "https://t3.ftcdn.net/jpg/04/59/06/74/240_F_459067476_0akZ45UE92ac2At32j5aFO77yjapYPwr.jpg",
+        "category": "vegetable",
+        "price": 15
+      },
+      {
+        "id": 17,
+        "name": "Carrot",
+        "image": "https://t4.ftcdn.net/jpg/02/28/90/67/240_F_228906712_r4bb71gSmKvyDHq54JvjXAhKWpQiqWvX.jpg",
+        "category": "vegetable",
+        "price": 10
+      },
+      {
+        "id": 18,
+        "name": "Kale",
+        "image": "https://t3.ftcdn.net/jpg/02/86/34/58/240_F_286345814_voN5KULi61dLCVkNQu7wg6R4yZ8pptCa.jpg",
+        "category": "vegetable",
+        "price": 30
+      },
+      {
+        "id": 19,
+        "name": "Lettuce",
+        "image": "https://t3.ftcdn.net/jpg/00/40/75/40/240_F_40754098_XoeJdGAz2oHJa9pWQ86ZRST99uskqdNE.jpg",
+        "category": "vegetable",
+        "price": 30
+      },
+      {
+        "id": 20,
+        "name": "Bell pepper",
+        "image": "https://t3.ftcdn.net/jpg/00/21/37/36/240_F_21373624_z5jsWQrneZuE8fsEhBegoEsXY0FxUBPK.jpg",
+        "category": "vegetable",
+        "price": 10
+      }
+    ]
+  }
+  
