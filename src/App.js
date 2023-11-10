@@ -19,5 +19,15 @@ function App() {
       .then((data) => setGroceries(data))
       .catch((error) => console.log(error));
   }, []);
-  
+
+  function addToYourCart(grocery){
+    if (!selectedGroceries.includes(grocery)) {
+      setSelectedGroceries([...selectedGroceries, grocery]);
+    }
+  };
+  function removeFromYourCart(groceryId){
+    if (selectedGroceries.some((grocery) => grocery.id === groceryId)) {
+      setSelectedGroceries(selectedGroceries.filter((grocery) => grocery.id !== groceryId));
+    } 
+  }
 }
