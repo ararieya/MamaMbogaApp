@@ -30,4 +30,13 @@ function App() {
       setSelectedGroceries(selectedGroceries.filter((grocery) => grocery.id !== groceryId));
     } 
   }
+
+  const searchedGroceries = groceries.filter((grocery) =>
+  grocery.name.toLowerCase().includes(searchTerm.toLowerCase()));
+
+  const handleFilterChange = (category) => {
+  setCategoryFilter(category);
+  };
+  
+  const filteredData = [] = categoryFilter === 'all' ? searchedGroceries : searchedGroceries.filter((item) => item.category === categoryFilter);
 }
