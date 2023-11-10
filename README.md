@@ -1,10 +1,54 @@
+# MAMA MBOGA APP
+
+## Description
+Mama Mboga is an app that enables a user to view and buy fruits and vegetables..
+As a user, I am able to:
+* See a list of fruits and vegetables available for sale.
+* Add an individual fruit or vegetable to my cart by clicking on the "Add to cart" button". The selected fruit or vegetable renders in the "Your Cart" page. The individual fruit or vegetable can be added only once. It does not disappear from the Grocery list.
+* Remove a grocery item from my cart by clicking on the "Remove from cart" button. 
+* Switch between different pages on the app by clicking on the Navigation bar at the top of the page.
+* Add a comment about my experience using the app and on the products.
+* Filter grocery items by category by selecting from the filter drop down options.
+* Filter grocery items by typing into the search bar. Only grocery items with a name matching the search term will be shown in the grocery list.
+
+## Installation Requirements
+To use the Mama Mboga App, you will need the following:
+
+* A laptop with an installed operating system.
+* An internet connection.
+* A code editor, such as VS Code.
+* A Node.js environment.
+* A web browser.
+
+## Project Setup
+* Fork and clone this repository.
+* Open the files in your code editor e.g. Visual Studio Code.
+* Run "npm install" on the terminal to install the app dependencies
+* Run "npm start" to start the development server so that you can open the application from your browser.
+* Alternatively you can visit the Web App on {link} ......
+
+## Technologies used
+* React JS
+* CSS
+* HTML
+* Bootstrap
+
+## Authors
+* Ashley Rarieya
+* Joy Cheruto
+* Abdulsalam Abdikarim
+* Elijah Ngocho
+* Timona Rono
+
+## License
+Licensed under the MIT License
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
 
 ### `npm start`
 
@@ -14,57 +58,3 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
