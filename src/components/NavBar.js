@@ -9,3 +9,43 @@ const linkStyles = {
     textDecoration: "none",
     color: "white",
   };
+
+  function NavBar(){
+    return(
+        <div>
+        <NavLink
+        to="/"
+        exact
+        style={linkStyles}
+        activeStyle={{
+          background: "darkblue",
+        }}
+      >
+        Home
+      </NavLink>
+      <NavLink
+        to="/Cart"
+        exact
+        style={linkStyles}
+        activeStyle={{
+          background: "darkblue",
+        }}
+      >
+        Cart
+      </NavLink>
+      <NavLink
+        to="/Comments"
+        exact
+        style={linkStyles}
+        activeStyle={{
+          background: "darkblue",
+        }}
+      >
+        Comment
+      </NavLink>
+        </div>
+        )
+  }
+
+  export default NavBar;
+
