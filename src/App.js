@@ -39,4 +39,25 @@ function App() {
   };
   
   const filteredData = [] = categoryFilter === 'all' ? searchedGroceries : searchedGroceries.filter((item) => item.category === categoryFilter);
+
+  return (
+    <>
+      <NavBar />
+        <Routes>
+        <Route exact path="/" element={
+    <div>
+      <Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
+      <Filter categoryFilter={categoryFilter} handleFilterChange={handleFilterChange} />
+      <Groceries filteredData={filteredData} addToYourCart={addToYourCart} />
+    </div> }/>
+          <Route exact path="/Cart" element={<Cart
+          selectedGroceries={selectedGroceries}
+          removeFromYourCart = {removeFromYourCart}
+          />} />
+          <Route exact path="/Comments" element={<Comments />}  />
+        </Routes>
+  </>
+  );
 }
+
+export default App;
