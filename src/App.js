@@ -42,20 +42,21 @@ function App() {
 
   return (
     <>
+    <div id = "navbar">
       <NavBar />
+    </div>
         <Routes>
         <Route exact path="/" element={
-      <div>
+    <div>
       <Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
       <Filter categoryFilter={categoryFilter} handleFilterChange={handleFilterChange} />
-     <div id = "groceries-list">
+      <div id = "groceries-list">
       <Groceries filteredData={filteredData} addToYourCart={addToYourCart} />
-     </div>
+      </div>
     </div> }/>
           <Route exact path="/Cart" element={<Cart
           selectedGroceries={selectedGroceries}
-          removeFromYourCart = {removeFromYourCart}
-          />} />
+          removeFromYourCart = {removeFromYourCart}/>} />
           <Route exact path="/Comments" element={<Comments />}  />
         </Routes>
   </>
