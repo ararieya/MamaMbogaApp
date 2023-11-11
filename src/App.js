@@ -45,10 +45,12 @@ function App() {
       <NavBar />
         <Routes>
         <Route exact path="/" element={
-    <div>
+      <div>
       <Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
       <Filter categoryFilter={categoryFilter} handleFilterChange={handleFilterChange} />
+     <div id = "groceries-list">
       <Groceries filteredData={filteredData} addToYourCart={addToYourCart} />
+     </div>
     </div> }/>
           <Route exact path="/Cart" element={<Cart
           selectedGroceries={selectedGroceries}

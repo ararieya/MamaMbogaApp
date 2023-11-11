@@ -5,8 +5,9 @@ function Search({  searchTerm, setSearchTerm }) {
     }
   
     return (
-      <form id="search-form">
+        <form >
         <input
+          id="search-form"
           type="text"
           value={searchTerm}
           placeholder="Search groceries"
