@@ -8,6 +8,8 @@ import Search from "./components/Search";
 import NavBar from "./components/NavBar";
 import AddGroceryItem from "./components/AddGroceryItem";
 
+const BASE_URL = "https://my-json-server.typicode.com/ararieya/MamaMbogaApp/groceries"
+
 function App() {
   const [groceries, setGroceries] = useState([]);
   const [selectedGroceries, setSelectedGroceries] = useState([]);
@@ -15,14 +17,14 @@ function App() {
   const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
-    fetch("http://localhost:3000/groceries")
+    fetch(BASE_URL)
       .then((response) => response.json())
       .then((data) => setGroceries(data))
       .catch((error) => console.log(error));
   }, []);
 
   const handleSaveGroceryItem= (groceryItem) => {
-    fetch("http://localhost:3000/groceries", {
+    fetch(BASE_URL, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
