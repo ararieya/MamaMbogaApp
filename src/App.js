@@ -77,6 +77,7 @@ function App() {
           selectedGroceries={selectedGroceries}
           removeFromYourCart = {removeFromYourCart}/>} />
           <Route exact path="/Comments" element={<Comments />}  />
+          <Route exact path="/Add Grocery Item" element={<AddGroceryItem handleSaveGroceryItem = {handleSaveGroceryItem} />}/>
         </Routes>
   </>
   );
