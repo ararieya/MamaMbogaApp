@@ -24,7 +24,7 @@ const handleSubmit = (e) => {
 
     // pass the form data to app component
     handleSaveGroceryItem(formData);
-     // reset the form by passing in the initial transaction values
+     // reset the form by passing in the initial groceries 
      setFormData(groceryItem);
     };
     return(

@@ -6,6 +6,7 @@ import Comments from "./components/Comments";
 import Filter from "./components/Filter";
 import Search from "./components/Search";
 import NavBar from "./components/NavBar";
+import AddGroceryItem from "./components/AddGroceryItem";
 
 function App() {
   const [groceries, setGroceries] = useState([]);
