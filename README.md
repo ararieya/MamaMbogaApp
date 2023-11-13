@@ -26,7 +26,7 @@ To use the Mama Mboga App, you will need the following:
 * Open the files in your code editor e.g. Visual Studio Code.
 * Run "npm install" on the terminal to install the app dependencies
 * Run "npm start" to start the development server and launch the application on your browser.
-* Alternatively you can visit the Web App on {link} ......
+* Alternatively you can visit the Web App on (https://mama-mboga-app.vercel.app/)
 
 ## Technologies used
 * React JS
