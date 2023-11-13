@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 const linkStyles = {
     display: "inline-block",
-    width: "100px",
+    width: "auto",
     padding: "12px",
     margin: "10px 0px",
     background: "blue",
@@ -12,7 +12,9 @@ const linkStyles = {
 
   function NavBar(){
     return(
-        <div>
+      
+        <div id= "header">
+          <h1>MamaMboga</h1>
         <NavLink
         to="/"
         exact
@@ -42,6 +44,16 @@ const linkStyles = {
         }}
       >
         Comment
+      </NavLink>
+      <NavLink
+        to="/Add Grocery Item"
+        exact
+        style={linkStyles}
+        activeStyle={{
+          background: "darkblue",
+          }}
+        >
+        Add Grocery Item
       </NavLink>
         </div>
         )
