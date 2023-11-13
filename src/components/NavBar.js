@@ -12,7 +12,9 @@ const linkStyles = {
 
   function NavBar(){
     return(
-        <div>
+      
+        <div id= "header">
+          <h1>MamaMboga</h1>
         <NavLink
         to="/"
         exact
