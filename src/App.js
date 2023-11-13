@@ -20,6 +20,25 @@ function App() {
       .catch((error) => console.log(error));
   }, []);
 
+  const handleSaveGroceryItem= (groceryItem) => {
+    fetch("http://localhost:3000/groceries", {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(groceryItem),
+    })
+      .then((res) => res.json())
+      .then((newGroceryItem) =>
+        // update the groceries state
+        setGroceries((groceries) => [
+          ...groceries,
+          newGroceryItem,
+        ])
+      )
+      .catch((err) => console.log(err));
+  };
+
   function addToYourCart(grocery){
     if (!selectedGroceries.includes(grocery)) {
       setSelectedGroceries([...selectedGroceries, grocery]);
